@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="app.js"></script>
+	<title>NC Tax Calculator</title>
+</head>
+<body>
+	<div id="calculator-container">
+		<h1>NC Tax Calculator</h1>
+		<form id="form" name="form" action="" >
+			<input type="text" name="price" id="price-holder" maxlength="10" size="10">
+		</form>
+		<button type="button" id="submit" class="button">Submit</button>
+		<button type="button" id="reset" class="button">Reset</button>
+		<div class="final-price-container"></div>
+		<p>This app adds 15% to the wholesale price (Shipping Charge), then triples the price for retail and adds 7.25% (North Carolina tax).</p>
+		<h2>Total</h2>
+		<div id="total-price"></div>
+	</div>
+</body>
+</html>
+
+
